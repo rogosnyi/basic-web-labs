@@ -1,0 +1,53 @@
+#container {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#number1 {
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+#form {
+  margin: 30px;
+  padding: 30px;
+  width: 220px;
+}
+
+#form input {
+  width: 210px;
+  height: 30px;
+  margin: 5px;
+  border: 1px solid rgb(189, 205, 225);
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+
+#form input[type="submit"] {
+  background-color: rgb(103, 113, 114);
+  font-size: 16px;
+  font-weight: 700;
+}
+
+#rgbB {
+  width: 100%;
+}
+
+#number2 {
+  margin: 30px;
+}
+
+table {
+  width: 200px;
+  border: 1px solid black;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 15px;
+  border: 2px solid black;
+}
