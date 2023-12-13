@@ -9,14 +9,14 @@
 
 /*Float layout*/
 
-#firstImg {
+#firstText {
   float: left;
   width: 100%;
   height: 15%;
   background: #2f6db0;
 }
 
-#firstText {
+#firstImg {
   float: left;
   width: 100%;
   height: 15%;
@@ -25,16 +25,16 @@
 
 #secondImg {
   float: left;
-  width: 25%;
-  height: 70%;
-  background: #165921;
-}
-
-#secondText {
-  float: left;
   width: 75%;
   height: 70%;
   background: #51c774;
+}
+
+#secondText {
+  float: right;
+  width: 25%;
+  height: 70%;
+  background: #165921;
 }
 
 /*Flex layout*/
@@ -44,26 +44,26 @@
   flex-wrap: wrap;
 }
 
-#firstImgFlex {
+#firstTextFlex {
   flex: 100%;
   height: 15%;
   background: #2f6db0;
 }
 
-#firstTextFlex {
+#firstImgFlex {
   flex: 100%;
   height: 15%;
   background: #d261ca;
 }
 
 #secondImgFlex {
-  width: 25%;
-  height: 70%;
-  background: #165921;
-}
-
-#secondTextFlex {
   width: 75%;
   height: 70%;
   background: #51c774;
+}
+
+#secondTextFlex {
+  width: 25%;
+  height: 70%;
+  background: #165921;
 }

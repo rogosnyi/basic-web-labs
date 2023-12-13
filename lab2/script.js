@@ -15,8 +15,6 @@ function check_data(data, pattern) {
 form.addEventListener("submit", function (event) {
   event.preventDefault();
 
-  let result = document.getElementById("info");
-
   let pattern_pib = /^[A-ZА-Я][a-zA-ZА-Яа-я]+ [A-ZА-Я]\.[A-ZА-Я]\.$/;
   let pattern_var = /\d{2}$/;
   let pattern_group = /[A-ZА-Я]{2}[-]\d{2}$/;
@@ -39,6 +37,7 @@ form.addEventListener("submit", function (event) {
   let result_idNum = check_data(idCard, pattern_idNum);
 
   if (result_pib && result_var && result_group && result_phn && result_idNum) {
+    info.innerHTML = "";
     info.innerHTML +=
       "ПІБ: " +
       pib.value +
